@@ -1,4 +1,4 @@
-#Title
+#C++ File Input Output
 
 ##Introduction
 
@@ -16,7 +16,40 @@ List
  
  -Third point
  
+##Code
+`#include <iostream>`
 
+`#include <fstream>`
+
+ `using namespace.std`
+ 
+ `int main (void)`
+ 
+`{`
+
+ `  ifstream File_1;`
+ 
+ `  double data;`
+ 
+ `  File_1.open("Data.txt");`
+ 
+ `  if (File_1.fail())`
+ 
+ `  {`
+ `    cout<< "Can't Open File" <<endl;`
+ 
+ `    return -1;`
+ 
+  `  }`
+  
+  `File_1>>data;`
+  
+  `File_1.close;`
+  
+  `return 0;`
+  
+`}` 
+ 
 ##Background
 
 ##Results
