@@ -2,7 +2,7 @@
 
 ##Introduction
 
-This is a brief document on how to read and write data on files in a C++ program. This is totally based on my knowledge I acquired from my college courses. 
+This is a brief document on how to **read and write data on files** in a C++ program. This is totally based on my knowledge I acquired from my college courses. 
 
 The following sections are covered:
 
