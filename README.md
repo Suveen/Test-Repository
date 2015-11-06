@@ -6,9 +6,9 @@ This is a brief document on how to **read and write data on files** in a C++ pro
 
 The following sections are covered:
 
- -Reading from a file, also called Input File Stream: *ifstream*
+  1. Reading from a file, also called Input File Stream: *ifstream*
  
- -Writing to a file, also called Output File Stream: *ofstream*
+  2. Writing to a file, also called Output File Stream: *ofstream*
 
 ##Code
 `#include <iostream>`
