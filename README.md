@@ -2,20 +2,14 @@
 
 ##Introduction
 
-The first sentence about to move to new paragraph. 
+This is a brief document on how to read and write data on files in a C++ program. This is totally based on my knowledge I acquired from my college courses. 
 
-The second paragraph begins. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3.
-Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3. Testing 1,2,3.
-Testing 1,2,3. Testing 1,2,3. **Testing 1,2,3.**
+The following sections are covered:
 
-List
+ -Reading from a file, also called Input File Stream: *ifstream*
+ 
+ -Writing to a file, also called Output File Stream: *ofstream*
 
- -First point
- 
- -*Second point*
- 
- -Third point
- 
 ##Code
 `#include <iostream>`
 
