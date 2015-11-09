@@ -11,40 +11,47 @@ The following sections are covered:
   2. Writing to a file, also called Output File Stream: *ofstream*
 
 ##Code
-`#include <iostream>`
+```
+#include <iostream>
 
-`#include <fstream>`
+#include <fstream>
 
- `using namespace.std`
+using namespace.std
  
- `int main (void)`
+ int main (void)
  
-`{`
+{
 
- `  ifstream File_1;`
+   ifstream File_1;
  
- `  double data;`
+   double data;
  
- `  File_1.open("Data.txt");`
+   File_1.open("Data.txt");
  
- `  if (File_1.fail())`
+   if (File_1.fail())
  
- `  {`
- `    cout<< "Can't Open File" <<endl;`
+   {
+      cout<< "Can't Open File" <<endl;
  
- `    return -1;`
+     return -1;
  
-  `  }`
+    }
   
-  `File_1>>data;`
+  File_1>>data;
   
-  `File_1.close;`
+  File_1.close;
   
-  `return 0;`
+ return 0;
   
-`}` 
- 
+}
+```
 ##Background
+
+| Library       | Function      |
+| ------------- | ------------- |
+| iostream      | main function |
+| fstream       | file I/O      |
+| cmath         | Math Library  |
 
 ##Results
 
